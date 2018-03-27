@@ -16,7 +16,7 @@ var debug = require('debug')('bitid-js-demo')
     store: new express.session.MemoryStore()
   }
   , port = process.env.PORT || 3000
-  , siteURL = process.env.SITEURL || 'http://localhost:3000'
+  , siteURL = process.env.SITEURL || 'http://idchain.herokuapp.com:3000'
   , callbackURL = siteURL + '/callback';
 
 
